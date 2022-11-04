@@ -5,6 +5,7 @@ public class Person {
 	private String lastName;
 	private String address;
 	private int age;
+	private String email;
 
 	public Person(String firstName, String lastName) {
 		super();
@@ -42,5 +43,13 @@ public class Person {
 
 	public void setAge(int age) {
 		this.age = age;
+	}
+	
+	public void setEmail(String email){
+		this.email = email;
+	}
+	
+	public String getEmail(){
+		return email;
 	}
 }
