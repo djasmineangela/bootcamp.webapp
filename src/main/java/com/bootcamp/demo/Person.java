@@ -4,6 +4,7 @@ public class Person {
 	private String firstName;
 	private String lastName;
 	private String address;
+	private String email;
 
 	public Person(String firstName, String lastName) {
 		super();
@@ -31,7 +32,15 @@ public class Person {
 		this.address = address;
 	}
 	
-	public void getAddress(){
+	public String getAddress(){
 		return address;
+	}
+	
+	public void setEmail(String email){
+		this.email = email;
+	}
+	
+	public String getEmail(){
+		return email;
 	}
 }
